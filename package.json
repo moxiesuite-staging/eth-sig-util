@@ -1,15 +1,12 @@
 {
-  "name": "eth-sig-util",
+  "name": "@trufflesuite/eth-sig-util",
   "version": "1.4.2",
-  "description": "A few useful functions for signing ethereum data",
+  "description": "Fork of https://github.com/MetaMask/eth-sig-util",
   "main": "index.js",
   "scripts": {
     "test": "node test/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/flyswatter/eth-sig-util.git"
-  },
+  "repository": "https://github.com/trufflesuite/eth-sig-util",
   "keywords": [
     "ethereum",
     "signature"
@@ -27,5 +24,8 @@
   "devDependencies": {
     "mocha": "^4.0.0",
     "tape": "^4.6.3"
+  },
+  "publishConfig":{
+    "access": "public"
   }
 }
